@@ -1,0 +1,7 @@
+#!/bin/bash
+var="santhu"
+age="25"
+num="2 4 6 8"
+echo "this is $var and age is $age"
+echo "$num are even numbers"
+

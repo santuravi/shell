@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "enter the name"
+read name
+if [ -f $name ]
+then
+echo "$name is a file"
+cat $name
+wc -l $name
+else
+echo "$name is a directory"
+ls $name
+fi
+

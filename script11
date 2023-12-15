@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "enter the name of file"
+read name
+if [ -f $name ]
+then
+word='expr wc -l $name | wc -w $name'
+echo "no of words $word"
+fi

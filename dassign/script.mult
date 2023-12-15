@@ -1,0 +1,3 @@
+#!/bin/bash
+mult=$(( $1 * $2 ))
+echo "$mult"
